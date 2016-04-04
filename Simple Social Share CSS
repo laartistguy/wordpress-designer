@@ -1,0 +1,124 @@
+.btn-tweet {
+  background-color: #41b7d8;
+  border-color: #41b7d8;;
+}
+.btn-tweet:hover,
+a .btn-tweet:hover {
+  background-color: #238caa;
+  border-color: #238caa;
+}
+
+.btn-facebook {
+  background-color: #3b5997;
+  border-color: #3b5997;
+}
+
+.btn-facebook:hover,
+a .btn-facebook:hover {
+  background-color: #263960;
+  border-color: #263960;
+}
+
+.btn-google {
+  background-color: #009E00;
+  border-color: #009E00;
+}
+
+.btn-google:hover,
+a .btn-google:hover {
+  background-color: #a02f21;
+  border-color: #a02f21;
+}
+
+.btn-pinterest {
+  background-color: #cb2027;
+  border-color: #cb2027;
+}
+
+.btn-pinterest:hover,
+a .btn-pinterest:hover {
+  background-color: #89161a;
+  border-color: #89161a;
+}
+
+.btn-email {
+  background-color: #5e82a8;
+  border-color: #5e82a8;
+}
+
+.btn-email:hover,
+a .btn-email:hover {
+  background-color: #19212b;
+  border-color: #19212b;
+}
+.btn-tumblr {
+    background-color: #35465c;
+    border-color: #35465c;
+}
+.btn-tumblr:hover, a .btn-tumblr:hover {
+    background-color: #19212b;
+    border-color: #19212b;
+}
+.btn-del {
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+.btn-del:hover, a .btn-del:hover {
+    background-color: #19212b;
+    border-color: #19212b;
+}
+.btn-reddit {
+    background-color: #f99015;
+    border-color: #f99015;
+}
+.btn-reddit:hover, a .btn-reddit:hover {
+    background-color: #19212b;
+    border-color: #19212b;
+}
+.btn-digg {
+    background-color: #005580;
+    border-color: #005580;
+}
+.btn-digg:hover, a .btn-digg:hover {
+    background-color: #f99015;
+    border-color: #f99015;
+}
+.btn-stumble {
+    background-color: #eb4923;
+    border-color: #eb4923;
+}
+.btn-stumble:hover, a .btn-stumble:hover {
+    background-color: #19212b;
+    border-color: #19212b;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.85em;
+  padding: 0.5em 0.6875em;
+  line-height: 1.2;
+  font-weight: normal;
+  border-radius: 0.0725em;
+  margin-right: 0.3125em;
+  margin-bottom: 0.3125em;
+  color: white;
+	border-radius: 3px;
+}
+.btn a{
+  color: #FFFFFF;
+}
+.btn,
+.btn:hover,
+a .btn:hover,
+.btn.active {
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.btn:hover,
+a .btn:hover,
+.btn.active {
+  background-color: #005580;
+  border-color: #005580;
+  text-decoration: underline;
