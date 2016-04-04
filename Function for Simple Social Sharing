@@ -1,0 +1,56 @@
+/** Social */
+function social_after_content() {
+if ( 'post' == get_post_type() && is_single() ) {
+echo'<div class="ss"><a class="btn btn-facebook"  rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=';
+echo the_permalink();
+echo'&t=';
+echo the_title(); 
+echo'">Facebook</a> ';
+echo'<a target="_blank"  class="btn btn-google"  href="https://plus.google.com/share?url=';
+echo the_permalink();
+echo'&">Google+</a>';
+echo'<a target="_blank" class="btn btn-tweet" href="https://twitter.com/intent/tweet?text=Checkout ';
+echo the_title();
+echo'&url=';
+echo the_permalink();
+echo'&via=ProWebDesigner">Twitter</a> ';
+echo'<a class="btn btn-pinterest"  rel="nofollow" href="http://pinterest.com/pin/create/button/?url=';
+echo the_permalink();
+echo'&amp;media=http://www.ohdesigner.com/web-design.gif&amp;description=';
+echo the_title();
+echo'" target="blank" count-layout="none">Pinterest</a>';
+echo'<a class="btn btn-reddit"  rel="nofollow" target="_blank" href="http://www.reddit.com/submit?url=';
+echo the_permalink();
+echo'&title=';
+echo the_title(); 
+echo'">Reddit</a> ';
+echo'<a class="btn btn-digg"  rel="nofollow" target="_blank" href="http://www.digg.com/submit?phase=2&url=';
+echo the_permalink();
+echo'&title=';
+echo the_title(); 
+echo'">Digg</a> ';
+echo'<a class="btn btn-stumble"  rel="nofollow" target="_blank" href="http://www.stumbleupon.com/submit?url=';
+echo the_permalink();
+echo'&title=';
+echo the_title(); 
+echo'">Stumble</a> ';
+echo'<a class="btn btn-del"  rel="nofollow" target="_blank" href="http://del.icio.us/post?url=';
+echo the_permalink();
+echo'&title=';
+echo the_title(); 
+echo'">Delicious</a> ';
+echo'<a class="btn btn-digg"  rel="nofollow" target="_blank" href="http://www.tumblr.com/share?v=3&u=';
+echo the_permalink();
+echo'&t=';
+echo the_title(); 
+echo'">Tumblr</a> ';
+echo'<a class="btn btn-email" href="mailto:Type E-Mail Address Here?subject=I wanted to share this article with you from Ohio Designer! &body=';
+echo the_title();
+echo'&#32;&#32;';
+echo the_permalink();
+echo'" title="Email to a friend/colleague" target="_blank">Email</a>';
+echo'</div>';
+}
+}
+add_action( 'genesis_entry_footer', 'social_after_content' );
+
